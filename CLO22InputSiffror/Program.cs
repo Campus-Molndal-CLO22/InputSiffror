@@ -1,6 +1,5 @@
 ﻿// Heltal = int = int32
 
-
 // Deklarera och tilldela värdet 0
 int age = 0;
 
@@ -14,3 +13,6 @@ float days = 365.25f * age;
 Console.WriteLine("Du har levt " + days + " dagar");
 
 Console.WriteLine("-----------------------------------------------------------------------");
+
+Console.WriteLine("Skriv en siffra");
+float bredd = float.Parse(Console.ReadLine());
